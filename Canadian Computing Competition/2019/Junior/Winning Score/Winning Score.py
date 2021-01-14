@@ -11,9 +11,12 @@ Ascore=(A3pts*3)+(A2pts*2)+(A1pts)
 Bscore=(B3pts*3)+(B2pts*2)+(B1pts)
 
 # Giving the output
-if Ascore>Bscore:
-    print("A")
-elif Bscore>Ascore:
-    print("B")
-else:
-    print("T")
+def MatchDecider():
+    if Ascore>Bscore:
+        Result = "A"
+    elif Bscore>Ascore:
+        Result = "B"
+    else:
+        Result = "T"
+    return(Result)
+MatchDecider()
