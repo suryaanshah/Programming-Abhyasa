@@ -5,4 +5,4 @@ for i in range(1001): # 1001 so it repeats 1000 times
         MultiplesOf3n5.append(i)
     else:
         None
- print(MultiplesOf3n5)
+ print(sum(MultiplesOf3n5))
