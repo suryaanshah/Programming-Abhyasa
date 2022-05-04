@@ -1,13 +1,12 @@
 package main
 
-import "fmt"
-
-var (
-  name1 = "TEst"
-  name2 = 90
+import (
+	"fmt"
 )
 
 func main() {
-	fmt.Printf("%v, %T", name1, name2)
-
+	n := 1 == 1
+	m := 1 == 2
+	fmt.Printf("%v, %T\n", n, n)
+	fmt.Printf("%v, %T", m, m)
 }
